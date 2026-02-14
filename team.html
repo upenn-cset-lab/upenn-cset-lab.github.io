@@ -19,7 +19,23 @@ title: Team
 
 .member-card {
   text-align: center;
+  border-left: 4px solid #990000; /* Penn Red */
+  padding-left: 15px;
 }
+
+.member-card {
+  position: relative;
+}
+
+.member-card::after {
+  content: "Penn Medicine";
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  font-size: 0.7em;
+  color: rgba(153, 0, 0, 0.2);
+}
+
 
 .member-card img {
   width: 180px;
@@ -77,6 +93,10 @@ title: Team
 <div class="member-card">
   <img src="/assets/images/ting.jpg" alt="Ting Lu">
   <div class="member-name">Ting Lu, MS</div>
+  <div style="display:inline-block; margin-top:6px; padding:4px 8px; 
+  background:#990000; color:white; font-size:0.75em; border-radius:4px;">
+    Penn Medicine
+  </div>
   <div class="member-role">
     Senior Statistical Analyst<br>
     Biostatistician<br>
