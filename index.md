@@ -3,31 +3,50 @@ layout: default
 title: C-SET Lab
 ---
 
-# Center for Systems Epidemiology and Transplant Exposomics (C-SET)
+<style>
+.hero {
+  background-image: url('/assets/images/hero.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 120px 20px;
+  text-align: center;
+  color: white;
+}
 
-## Mission
+.hero h1 {
+  font-size: 3em;
+  margin-bottom: 0.3em;
+}
 
-C-SET advances understanding of how complex, multidimensional environmental exposures influence solid organ transplant outcomes through systems epidemiology, biostatistics, and causal inference.
+.hero p {
+  font-size: 1.2em;
+}
 
----
+.section {
+  padding: 60px 20px;
+  max-width: 900px;
+  margin: auto;
+}
+</style>
 
-## Scientific Focus
+<div class="hero">
+  <h1>Center for Systems Epidemiology and Transplant Exposomics</h1>
+  <p>Penn Medicine · University of Pennsylvania</p>
+</div>
 
-- Exposome characterization  
-- Spatiotemporal modeling  
-- Distributed lag and time-varying exposure-response frameworks  
-- Machine learning integration  
-- Risk prediction and clinical decision support  
+<div class="section">
+  <h2>Mission</h2>
+  <p>
+  C-SET advances understanding of how multidimensional environmental exposures influence solid organ transplant outcomes through systems epidemiology, biostatistics, and causal inference.
+  </p>
+</div>
 
----
-
-## Infrastructure
-
-C-SET integrates national transplant datasets (e.g., USRDS), high-resolution environmental exposure data, and spatial linkage frameworks to build scalable, reproducible analytical pipelines.
-
----
-
-## Affiliation
-
-Penn Medicine  
-University of Pennsylvania
+<div class="section">
+  <h2>Research Focus</h2>
+  <ul>
+    <li>Spatiotemporal exposure modeling</li>
+    <li>Distributed lag and time-varying effect estimation</li>
+    <li>High-resolution environmental data integration</li>
+    <li>Machine learning for clinical risk prediction</li>
+  </ul>
+</div>
