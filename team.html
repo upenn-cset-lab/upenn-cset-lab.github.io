@@ -3,10 +3,64 @@ layout: default
 title: Team
 ---
 
+<style>
+.team-section {
+  max-width: 1100px;
+  margin: 60px auto;
+  padding: 0 20px;
+}
+
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 40px;
+  margin-top: 40px;
+}
+
+.member-card {
+  text-align: center;
+}
+
+.member-card img {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.member-name {
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+.member-role {
+  color: #666;
+  font-size: 0.9em;
+}
+</style>
+
+<div class="team-section">
+
 <h1>Team</h1>
 
-<h3>Principal Investigator</h3>
-<p>Dr. [Kyle Lastname], Penn Medicine</p>
+<h2>Principal Investigator</h2>
 
-<h3>Research Staff</h3>
-<p>Ting Lu, Statistical Analyst</p>
+<div class="team-grid">
+  <div class="member-card">
+    <img src="/assets/images/pi.jpg" alt="PI">
+    <div class="member-name">Dr. Kyle [Last Name]</div>
+    <div class="member-role">Principal Investigator</div>
+  </div>
+</div>
+
+<h2 style="margin-top:60px;">Research Staff</h2>
+
+<div class="team-grid">
+  <div class="member-card">
+    <img src="/assets/images/ting.jpg" alt="Ting Lu">
+    <div class="member-name">Ting Lu</div>
+    <div class="member-role">Statistical Analyst</div>
+  </div>
+</div>
+
+</div>
