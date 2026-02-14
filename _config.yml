@@ -6,7 +6,3 @@ plugins:
   - jekyll-remote-theme
   - jekyll-feed
 
-header_pages:
-  - research.md
-  - infrastructure.md
-  - team.md
